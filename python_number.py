@@ -9,7 +9,8 @@
 #Variables of numeric types are created when you assign a value to them:
 
 ##### Example #
-
+print "\n"
+print ("There are three numeric types in Python ::-")
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
@@ -24,8 +25,8 @@ print(type(z))
 #### Int
 # 	Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
 ##### Example #
-
-print ("This Example for Integer::-")
+print "\n"
+print ("This Example for Integer ::-")
 
 x = 1
 y = 5319531953195319
@@ -40,8 +41,8 @@ print(type(z))
 #*** Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
 
 #^^^^^^^ Example ^^^^^^^^^^^
-
-print ("This Example for Floats::-")
+print "\n"
+print ("This Example for Floats ::-")
 
 x = 1.10
 y = 1.0
@@ -54,7 +55,7 @@ print(type(z))
 ###################### Complex ###############
 
 # Complex numbers are written with a "j" as the imaginary part:
-
+print "\n"
 print ("This Example for Complex ::-")
 
 x = 3+5j
@@ -64,3 +65,6 @@ z = -5j
 print(type(x))
 print(type(y))
 print(type(z))
+print "\n"
+print (" /\ /\ THANK YOU FOR LEARNING PYTHON NUMBERS /\ /\ ")
+print "\n" 
