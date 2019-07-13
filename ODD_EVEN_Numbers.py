@@ -2,8 +2,7 @@
 
 #R = int(input("Enter the ODD or Even Number:"))
 R = int(input(" Enter The Number :"))
-
 if R%2==0:
-     print (" R is an Even Number")
+     print ("The Even Elements are:",R)
 else:
-     print (" R is an ODD Number")
+     print ("The ODD Element is:",R)
