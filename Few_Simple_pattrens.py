@@ -42,7 +42,7 @@ for a in range(1,x+1,2):
            print("*",end=" ")
         print()
 for b in range(1,x+1):
-    print(" "*(x-4),end=" " )
+    print(" "*(x+4),end=" " )
     print("+"*4)
 
 

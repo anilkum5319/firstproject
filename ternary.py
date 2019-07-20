@@ -141,7 +141,54 @@
 #else:
     #print ("Other Brands Are Not Good To Ware !!")
 
-#2. iterative/loops Statements
 
-#3. Tranfer Statements
+#2. iterative/loops Statements  --- This will be used for, whne we need a code to be run repeatedly, then will go for iterative statments
+######### we have two loops in iterative statements , they are for-loop and while-loop
+
+# Example : for loop
+#a=input("Enter The string Value:")
+#for i in a:
+    #print("Good Morning",a)
+######################################
+
+#for x in range(1,50):
+    #if x%2!=0:
+        #print("This is ODD Numbers:",x)
+    #else:
+        #print("This is Even Numbers:",x)
+
+#while True:  
+    #print("Hello Anil, Good Morning")    ##### This one also called infinite loop 
+
+#x=0
+#while x<=100:
+    #print(x)
+    #x+=1
+
+
+#3. Tranfer Statements ----- Loops and Control statements ( Continue, Pass & Break) to handle looping requremnts
+      ##we have 3 - Tranfer statements i.e 1. continue ((This will used for skiping current itteration and continue next itterastion)) 2. break ( To beak the itterastion/any loop, if we use break statment, loop will be stop there it self >> 3. pass { just to pass the statement}
+## Break Example ##
+
+#x=[10,20,30,40,500,50,600,60]
+#for i in x:
+    #if i>400:
+        #print("Sorry We can Not Process This Order, As You Dont Have Insurence:")
+        #break
+    #print("The Items Value Is:",i,"Rupees")
+
+### Continue Example ###
+
+#for i in x:
+    #if i>400:
+        #print("Sorry We can Not Process This Order, As You Dont Have Insurence:")
+        #continue
+    #print("The Items Value Is:",i,"Rupees")
+    
+
+####### Nested Loops:  it is a loop that occurs with in the another loop
+
+for i in range(5):
+    for j in range(5):    #  here inside one for loop , we have difine another for loop is called nested !!
+        print("i={} and j={}".format(i,j))
 
